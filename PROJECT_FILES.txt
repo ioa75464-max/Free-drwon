@@ -1,0 +1,27 @@
+Free drawing — Phase 5 project snapshot
+
+app/src/main/java/com/freedrawing/app/ui/workspace/WorkspaceScreen.kt
+  Main workspace implementation through Phase 5.
+
+Phase 5 additions:
+- Advanced brush/tool system
+- Shape tools
+- Selection
+- Eyedropper approximation
+- Canvas rotate/flip transforms
+- Improved eraser hit testing
+- Custom palette
+
+Phase 4 retained:
+- Artwork image elements
+- Floating references
+- Reference management
+- Image transforms
+
+Phase 3 retained:
+- Independent layers
+- Visibility/lock/opacity/order
+- Duplicate/delete/merge/clear
+
+Build note:
+The source was statically checked for balanced braces/parentheses and duplicate top-level package declarations. A real Android build could not be performed because the environment has no Android SDK/Android Studio/adb and no complete Gradle wrapper installation.
